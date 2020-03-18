@@ -1,0 +1,39 @@
+{
+  "name": "kawaemon.github.io",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.2",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/webpack": "^4.41.6",
+    "@types/webpack-merge": "^4.1.5",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^5.0.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "build": "webpack --config ./WebpackConfig/webpack.config.ts",
+    "dev": "webpack-dev-server --watch --config ./WebpackConfig/webpack.dev.config.ts"
+  },
+  "dependencies": {
+    "@types/react-event-listener": "^0.4.9",
+    "react-event-listener": "^0.6.6"
+  }
+}
